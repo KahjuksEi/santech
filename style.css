@@ -307,7 +307,7 @@ tr:nth-child(even) {
   background: #065069;
 }
 .viberForMob {
-  display: none;
+  display: none !important;
 }
 footer {
   background: #00a4a6;
