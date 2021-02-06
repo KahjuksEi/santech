@@ -27,6 +27,12 @@
   .galleryBlock h2 {
     padding-left: 6px;
   }
+  .viberForMob {
+    display: block;
+  }
+  .viberForDesc {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .header__phones {

@@ -306,6 +306,9 @@ tr:nth-child(even) {
 .formBlock a:hover {
   background: #065069;
 }
+.viberForMob {
+  display: none;
+}
 footer {
   background: #00a4a6;
   padding: 6px;
