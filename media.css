@@ -1,0 +1,92 @@
+@media (min-width: 960px) {
+  .grid {
+    overflow-x: unset;
+  }
+}
+@media (max-width: 960px) {
+  #navMenu {
+    display: none;
+  }
+  #mobileOpenBtn {
+    display: block;
+  }
+  .header__bottom {
+    display: block;
+  }
+  .header__bottom ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  #slides {
+    height: 450px;
+  }
+  .header__upper h1 {
+    padding-left: 42px;
+  }
+  .galleryBlock h2 {
+    padding-left: 6px;
+  }
+}
+@media (max-width: 768px) {
+  .header__phones {
+    display: none;
+  }
+  .mobTel {
+    display: block;
+  }
+  .mobTel img {
+    width: 32px;
+    margin: 6px 6px 0px 0px;
+  }
+  .header__upper h1 {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  #mobileOpenBtn {
+    top: -4px;
+    left: 4px;
+  }
+  #mobileCloseBtn {
+    top: -24px;
+  }
+  #slides {
+    height: 400px;
+  }
+  .slide {
+    padding: 100px 0px 0px 42px;
+  }
+  .preferenceBlock__block {
+    width: 50%;
+  }
+
+  .formBlock a {
+    width: 95%;
+  }
+}
+@media all and (min-width: 600px) {
+  .grid {
+    grid-auto-flow: initial;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 20em));
+    justify-content: center;
+  }
+}
+@media all and (max-width: 568px) {
+  #slides {
+    height: 240px;
+  }
+  .slide {
+    padding: 0px 0px 0px 42px;
+  }
+  .slideBlock h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  .header__upper h1 {
+    font-size: 16px;
+  }
+  .preferenceBlock__block {
+    width: 100%;
+  }
+}
