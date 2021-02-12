@@ -42,3 +42,11 @@ let previous = document.getElementById("previous");
 previous.onclick = function () {
   prevSlide();
 };*/
+
+let images = document.querySelectorAll(".grid__figure");
+
+for (let i = 0; i < images.length; i++) {
+  images[i].addEventListener("click", function () {
+    images[i].classList.toggle("show");
+  });
+}

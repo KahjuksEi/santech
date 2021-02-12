@@ -1,7 +1,7 @@
 @media (min-width: 960px) {
-  .grid {
+  /* .grid {
     overflow-x: unset;
-  }
+  } */
 }
 @media (max-width: 960px) {
   #navMenu {
@@ -71,11 +71,11 @@
   }
 }
 @media all and (min-width: 600px) {
-  .grid {
+  /* .grid {
     grid-auto-flow: initial;
     grid-template-columns: repeat(auto-fit, minmax(auto, 20em));
     justify-content: center;
-  }
+  } */
 }
 @media all and (max-width: 568px) {
   #slides {
@@ -86,6 +86,9 @@
   }
   .slideBlock h2 {
     font-size: 24px;
+  }
+  .grid {
+    grid-auto-columns: 80%;
   }
 }
 @media (max-width: 420px) {
