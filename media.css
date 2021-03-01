@@ -69,6 +69,9 @@
   .formBlock a {
     width: 95%;
   }
+  .grid {
+    grid-auto-columns: 25%;
+  }
 }
 @media all and (min-width: 600px) {
   /* .grid {
@@ -86,9 +89,6 @@
   }
   .slideBlock h2 {
     font-size: 24px;
-  }
-  .grid {
-    grid-auto-columns: 80%;
   }
 }
 @media (max-width: 420px) {

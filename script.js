@@ -1,5 +1,4 @@
-/*Слайдер*/
-
+/*nav*/
 let navMenu = document.getElementById("navMenu");
 let mobileOpenBtn = document.getElementById("mobileOpenBtn");
 let mobileCloseBtn = document.getElementById("mobileCloseBtn");
@@ -16,6 +15,7 @@ function closeMenu() {
   mobileOpenBtn.style.display = "block";
 }
 
+/*slider*/
 let slides = document.querySelectorAll("#slides .slide");
 let currSlide = 0;
 let slideInterval = setInterval(nextSlide, 3000);
@@ -43,10 +43,13 @@ previous.onclick = function () {
   prevSlide();
 };*/
 
-let images = document.querySelectorAll(".grid__figure");
+/*gallery*/
 
-for (let i = 0; i < images.length; i++) {
+/*let images = document.querySelectorAll(".grid__figure");*/
+
+/*for (let i = 0; i < images.length; i++) {
   images[i].addEventListener("click", function () {
     images[i].classList.toggle("show");
   });
-}
+}*/
+/*new gallery*/
